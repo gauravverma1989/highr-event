@@ -1,0 +1,34 @@
+body {font-family: 'Montserrat', sans-serif;}
+
+nav {min-height:80px;}
+
+nav .navbar-brand {margin-left:10rem; }
+nav .navbar-brand img{max-width:45%; }
+
+.navbar-expand-lg .navbar-nav .nav-link { padding-right:1rem; padding-left:1rem; color:#6D6E71 !important; font-size:1.3rem; font-weight:400;}
+.navbar .dropdown-menu {margin-top:21px;}
+.navbar .dropdown-menu a {color: #6D6E71 !important;}
+
+
+
+
+
+
+
+
+
+
+
+
+/*-----------------------------Media Queries------------------------*/
+
+@media only screen and (max-width: 767px) and (min-width: 300px) {
+    nav .navbar-brand {margin-left:unset;}
+    .navbar {background-color:lightgrey;}
+}
+
+
+@media only screen and (max-width: 991px) and (min-width: 768px) {
+    nav .navbar-brand {margin-left:unset;}
+    .navbar {background-color:lightgrey;}
+}
